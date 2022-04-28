@@ -1,4 +1,15 @@
-public class InheritanceExampl {
+class C{
+    int a;
+    void show(){
+        System.out.println("from show function");
+    }
+    public void add(int a, int b){
+        System.out.println("form add = "+ (a+b));
+    }
+
+}
+
+public class InheritanceExampl extends C {
     public void disaplay(){
         System.out.println("from mdisaply");
     }
